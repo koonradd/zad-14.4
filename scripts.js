@@ -1,3 +1,7 @@
+//nie wiem, nie wiem, nie wiem, ale jest fajnie:)
+
+
+
 var movies = [
   {
     id: 1, 
