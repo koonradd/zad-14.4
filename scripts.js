@@ -1,3 +1,8 @@
+// nie wiem, nie wiem, nie wiem, nie wiem, ale jest fajnie:)
+
+
+
+
 var movies = [
   {
     id: 1, 
@@ -85,7 +90,7 @@ var Movie = React.createClass({
 
 var MovieTitle = React.createClass({
 	propTypes: {
-		title: React.propTypes.string.isRequired, 
+		title: React.PropTypes.string, 
 	},
 	render: function() {
 		return (React.createElement('h2', {}, this.props.title)
@@ -97,7 +102,7 @@ var MovieTitle = React.createClass({
 
 var MovieDescription = React.createClass({
 	propTypes: {
-		desc: Reaact.propTypes.string.isRequired,
+		desc: React.PropTypes.string,
 	},
 	render: function(){
 		return (
@@ -111,7 +116,7 @@ var MovieDescription = React.createClass({
 
 var MovieList = React.createClass({
 	propTypes: {
-		movie: React.propTypes.object.isRequired,
+		movie: React.PropTypes.object.isRequired,
 	},
 	render: function(){
 		return React.createElement('ul', {}, 
